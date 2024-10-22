@@ -1,6 +1,6 @@
 # Nettbutikk
 
-Velkommen til nettbutikken! Dette prosjektet er en fullverdig e-handelsløsning hvor brukere kan utforske produkter og legge dem til og fjerne de fra handlekurven. Med funksjoner for brukerregistrering og innlogging, samt sanntidsoppdateringer av handlekurven, gir denne applikasjonen en sømløs handleopplevelse. Nettbutikken er bygget med en moderne teknologistack som inkluderer React for frontend og Express med MongoDB for backend.
+Velkommen til nettbutikken! Dette prosjektet er et eksempel på en e-handelsløsning hvor brukere kan utforske produkter og legge dem til og fjerne de fra handlekurven. Med funksjoner for brukerregistrering og innlogging, samt sanntidsoppdateringer av handlekurven, gir denne applikasjonen en sømløs handleopplevelse. Nettbutikken er bygget med en moderne teknologistack som inkluderer React for frontend og Express med MongoDB for backend.
 
 ## Funksjonalitet
 
