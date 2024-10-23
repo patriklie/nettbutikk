@@ -1,37 +1,37 @@
-# Nettbutikk
+# E-Commerce Store
 
-Dette prosjektet er et eksempel på en e-handelsløsning hvor brukere kan utforske, legge til og fjerne produkter fra handlekurven. Med funksjoner for brukerregistrering og innlogging, samt sanntidsoppdateringer av handlekurven, gir denne applikasjonen en sømløs handleopplevelse. Nettbutikken er bygget med en moderne teknologistack som inkluderer React for frontend og Express med MongoDB for backend.
+This project is an example of an e-commerce solution where users can browse, add, and remove products from their shopping cart. With features for user registration and login, as well as real-time updates to the shopping cart, this application provides a seamless shopping experience. The store is built with a modern tech stack that includes React for the frontend and Express with MongoDB for the backend.
 
-## Funksjonalitet
+## Functionality
 
-- **Produktvisning**: Utforsk produkter.
-- **Handlekurv**: Legg til og fjern produkter fra handlekurven din, med automatisk oppdatering av totalsum.
-- **Brukerregistrering og innlogging**
-- **Backend-tilkobling**: Backend-tjenesten håndterer dataoppbevaring og autentisering via MongoDB.
+- **Product Viewing:** Explore products.
+- **Shopping Cart:** Add and remove products from your cart, with automatic total updates.
+- **User Registration and Login**
+- **Backend Connection:** The backend service handles data storage and authentication via MongoDB.
 
-## Teknologier
+## Technologies
 
 ### Frontend
-- **React**: For bygging av brukergrensesnittet.
-- **Redux Toolkit**: For effektiv state management.
-- **React Router**: For navigering mellom ulike sider.
-- **Styled Components**: For stilsetting av komponenter.
-- **Axios**: For API-kall til backend.
+- **React:** For building the user interface.
+- **Redux Toolkit:** For efficient state management.
+- **React Router:** For navigating between different pages.
+- **Styled Components:** For styling components.
+- **Axios:** For API calls to the backend.
 
 ### Backend
-- **Express**: Webapplikasjonsrammeverk for Node.js.
-- **Mongoose**: For å håndtere databasetilkoblinger og modeller.
-- **JWT**: For sikker autentisering og autorisasjon.
-- **Bcrypt**: For sikker lagring av passord.
-- **Dotenv**: For håndtering av miljøvariabler.
+- **Express:** Web application framework for Node.js.
+- **Mongoose:** For managing database connections and models.
+- **JWT:** For secure authentication and authorization.
+- **Bcrypt:** For securely storing passwords.
+- **Dotenv:** For managing environment variables.
 
-## Miljøvariabler
+## Environment Variables
 
-For å kjøre backend-tjenesten din, må du opprette en `.env`-fil med følgende innhold i backend mappen:
+To run your backend service, you need to create a `.env`file with the following content in the backend folder:
 PORT=5000
-DB_URI = din MongoDB-database URI og 
-JWT_SECRET_KEY = din hemmelige nøkkel for JWT-signering.
+DB_URI = your MongoDB database URI
+JWT_SECRET_KEY = your secret key for JWT signing
 
-## Skjermbilder av appen
-![Eksempel på produkter](images/Nettbutikk1.png)
-![Eksempel på handlekurv](images/Nettbutikk2.png)
+## Screenshots of the App
+![Product Example](images/Nettbutikk1.png)
+![Shopping Cart Example](images/Nettbutikk2.png)
